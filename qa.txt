@@ -1,0 +1,21 @@
+﻿smartigempty : Validation Results
+=========================================
+
+err = 1, warn = 4, info = 0
+IG Publisher Version: 1.3.4
+Generated Wed Apr 26 05:17:05 UTC 2023. FHIR version 4.0.1 for fhir.who.smart-ig-empty#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-empty)
+ Build Errors : 5 / 3 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-fhir.who.smart-ig-empty : 1 / 1 / 1
+</table>
+== n/a ==
+ERROR: /github/workspace/output/checklist.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 329, column 38: The link 'artifacts.html#structures-logical-models' for "Indices.Artifacts Summary.Structures:Logical Models" cannot be resolved (valid targets: [ig-status, artifacts-summary, segment-header, top, publish-box, bottom, stripe, segment-footer, segment-post-footer, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: /github/workspace/output/data_exchange.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 183, column 10: The link 'workflows.html' for "Workflows" cannot be resolved
+ERROR: /github/workspace/output/instructions.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 273, column 42: The link '#checklist' for "Smart Guidelines IG checklist" cannot be resolved (valid targets: [instructions, publish-box, segment-post-footer, new-smart, adaptation, creating-a-new-github-repository, top, scope, country-adaptation-of-an-existing-guide, stripe, segment-footer, creating-a-new-who-smart-guidline, segment-content, generation, github, generating-an-implmentation-guide, segment-header, bottom, directory-structure, ig-status, 1, modify, 2, 3, 4, modifying-the-template-repository, directory-layout-for-content, segment-navbar, segment-breadcrumb])
+ERROR: /github/workspace/output/instructions.html#/html/body/div/div/div/div/div/div/ul/li/dl/dd/a at Line 277, column 13: The link 'hl7.org/fhir/uv/shorthand/' for "FHIR Shorthand" cannot be resolved
+ERROR: /github/workspace/output/instructions.html#/html/body/div/div/div/div/div/div/ul/li/dl/dd/a at Line 289, column 68: The link '#checklist' for "Smart Guidelines IG checklist" cannot be resolved (valid targets: [instructions, publish-box, segment-post-footer, new-smart, adaptation, creating-a-new-github-repository, top, scope, country-adaptation-of-an-existing-guide, stripe, segment-footer, creating-a-new-who-smart-guidline, segment-content, generation, github, generating-an-implmentation-guide, segment-header, bottom, directory-structure, ig-status, 1, modify, 2, 3, 4, modifying-the-template-repository, directory-layout-for-content, segment-navbar, segment-breadcrumb])
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-fhir.who.smart-ig-empty.json ==
+WARNING: ImplementationGuide/fhir.who.smart-ig-empty: ImplementationGuide: Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: ImplementationGuide/fhir.who.smart-ig-empty: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
