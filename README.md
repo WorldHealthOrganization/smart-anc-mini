@@ -1,20 +1,11 @@
-WHO SMART Guidelines Starter Template.
----
-This is the SMART Guidelines Starter Template
-<br> </br>
-###
-### Publication
-This ImplementationGuide is published in the following locations:
+# SMART ANC MINI
+This implementation guide demonstrates end-to-end capabilities for computable clinical practice guidelines following the World Health Organization SMART IG approach
 
+## Building the IG
+TODO: Document build process
 
-Continuous Build:  __https://github.com/WorldHealthOrganization/smart-ig-starter-kit__  
-Canonical / permanent URL: __https://WorldHealthOrganization.github.io/smart-ig-starter-kit__  
-
-<br> </br>
-
-### Issues
-Issues and change requests are managed here:  
-
-Issues:  __https://github.com/WorldHealthOrganization/smart-ig-starter-kit/issues__  
-    or the Kanban board: __https://github.com/WorldHealthOrganization/smart-ig-starter-kit/projects/1__
-
+1. Data Dictionary
+2. Decision Tables
+3. Test Cases
+4. IG Refresh [CQF Tooling](https://github.com/cqframework/cqf-tooling)
+5. IG Genonce [FHIR Publisher](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation)
