@@ -1,0 +1,13 @@
+{
+ "package-id" : "who.fhir.smart-anc-mini",
+ "title" : "SMART ANC Mini IG",
+ "canonical" : "http://fhir.org/guides/who/smart-anc-mini",
+ "introduction" : "This implementation guide demonstrates end-to-end capabilities for computable clinical practice guidelines following the World Health Organization SMART IG approach",
+ "list" : [{
+  "version" : "current",
+  "desc" : "Continuous Integration Build (latest in version control)",
+  "path" : "http://build.fhir.org/ig/WorldHealthOrganization/smart-anc-mini",
+  "status" : "ci-build",
+  "current" : true
+ }]
+}
