@@ -141,7 +141,7 @@ define "Pregnancy confirmed":
   @description: Before each contact, the health worker should check whether the woman has any of the danger signs listed here – if yes, she should refer to the hospital urgently; if no, she should continue to the normal contact
 */
 define "Danger signs":
-  WC.Final([Observation: Cx."Danger signs"])
+  WC.MostRecent(WC.Final([Observation: Cx."Danger signs"])).value as CodeableConcept
 
 /*
   @dataElement: ANC.B5.DE5 Specific health concern(s)
